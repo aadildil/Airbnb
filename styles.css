@@ -136,6 +136,10 @@ main
     padding-inline: 3px;
     flex: 1;
 }
+.location-field
+{
+    position: relative;
+}
 #guests-field input
 {
     border: none;

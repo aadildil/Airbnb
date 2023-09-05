@@ -46,6 +46,7 @@ let addressArray=address.split(",");
 let country=addressArray[addressArray.length-1];
 let images=item.images;
 
+console.log(priceItems);
 
 function plural(num,s)
 {
