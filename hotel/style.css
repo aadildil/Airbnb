@@ -1,0 +1,617 @@
+body
+{
+    margin: 0px;
+    padding: 0px 0px;
+    font-family: 'inter',sans-serif;
+}
+header
+{
+    
+   padding: 10px 5vw;
+   padding-bottom: 30px;
+   align-items: center;
+   position: sticky;
+   z-index: 2;
+   top: 0px;
+   background-color: white;
+   border-bottom: 0.5px solid rgba(213, 205, 205, 0.534);
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    height: 2rem;
+}
+.nav-middle
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.nav-middle a
+{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+.nav-right
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-right>a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+/* Style the user menu container */
+.user-menu {
+    display: flex;
+    align-items: center;
+    background-color: rgb(240, 237, 237);
+    border-radius: 50px;
+    padding: 3px;
+    gap: 2px;
+}
+
+/* Style the hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 3px;
+    
+  
+  
+}
+
+.bar {
+    width: 20px;
+    height: 1px;
+    border: none;
+    border-top: 2px solid black;
+    background-color:transparent; /* Adjust the color as needed */
+    margin: auto;
+}
+
+/* Style the profile picture */
+.profile-pic {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    border-radius: 50%; /* Create a circular shape */
+}
+
+.search-details
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 3px 3px 10px rgb(159, 158, 158);
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+.search-bar
+{
+    display: flex;
+}
+#searchField
+{
+    border: none;
+    outline: none;
+    width: 15rem;
+}
+#searchField::placeholder
+{
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: rgb(8, 8, 8);
+}
+.search-icon
+{
+    background-color: rgb(234, 61, 90);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+main
+{
+    padding-inline: 5vw;
+    padding-block: 50px;
+}
+.hotel-title
+{
+    font-size: 2rem;
+    color: rgb(52, 50, 50);
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgb(165, 158, 158);
+}
+.main-header
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hotel-summary
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight:600;
+
+}
+.quick-details
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.super-host
+{
+    display: flex;
+    gap: 0px;
+    color: #6B7280;
+}
+.header-location
+{
+    border-bottom: 0.5px solid black;
+    color: #6B7280;
+}
+.share-save
+{
+    display: flex;
+    gap: 10px;
+}
+.image-container
+{
+    width: 100%;
+    display: flex;
+    margin-block: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    gap: 5px;
+    height: 500px;
+}
+.left-grid
+{
+    width: 50%;
+  
+}
+#big-image
+{
+    width: 100%;
+    height: 100%;
+}
+.right-grid
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.image-row
+{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    position: relative;
+    height: 50%;
+}
+.small-image
+{
+    width: 50%;
+}
+.show-all
+{
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+    padding: 10px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition:background-color 0.1s ease-in;
+}
+.show-all:hover
+{
+    background-color: azure;
+}
+
+
+
+
+
+
+.booking-container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hotel-details
+{
+    width: 60%;
+}
+.hotel-header
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+    border-bottom: 0.5px solid rgba(213, 205, 205, 0.534);
+}
+.hotel-specs
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.hosted-by-top
+{
+    font-size: 2rem;
+   font-weight: 600;
+   color: rgb(43, 39, 39);
+   text-shadow: 1px 1px 1px rgb(255, 249, 249);
+}
+.hosted-by-bottom
+{
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+}
+.host-pic
+{
+    position: relative;
+}
+#host-photo
+{
+    width: 60px;
+    border-radius: 50%;
+}
+#badge
+{
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    width: 1rem;
+    display: none;
+}
+.rules-cards
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 50px;
+    gap: 10px;
+
+}
+.rule-card
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.rule-content
+{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.rule-main
+{
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.rule-sub
+{
+    content: " ";
+    color: #6b7280;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.description-container
+{
+    padding-block: 50px;
+   
+   
+    overflow-y: hidden;
+    border-bottom: 0.5px solid rgba(213, 205, 205, 0.534);
+   
+}
+.description-text
+{
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 400;
+    
+    
+}
+.sleep-container
+{
+    padding-block: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    border-bottom: 0.5px solid rgba(213, 205, 205, 0.534);
+}
+.sleep-header
+{
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px rgb(62, 60, 60);
+    margin-bottom: 20px;
+}
+#bed-image
+{
+    width: 50%;
+}
+.room-type
+{
+    font-weight: bold;
+}
+.bed-type
+{
+    font-size: 0.8rem;
+}
+.booking-details
+{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+.price-card
+{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    box-shadow: -3px 3px 10px rgba(168, 165, 165, 0.777);
+    height: max-content;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 10px;
+}
+.price-header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.price-header-left
+{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.card-price
+{
+    font-weight: 600;
+    font-size: 1.5rem;
+    
+}
+.price-header-right
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+}
+.total
+{
+    padding-top: 30px;
+    border-top: 0.5px solid rgb(190, 183, 183);
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+.review-count
+{
+    text-decoration: underline;
+}
+.date-table
+{
+    display: flex;
+    flex-direction: column;
+    border: .5px solid rgba(213, 205, 205, 0.534);
+    border-radius: 3px;
+}
+.date-details
+{
+    display: flex;
+  
+}
+.out-in-deatils
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 5px;
+    align-items: start;
+    padding: 10px;
+    border-right: .5px solid rgba(213, 205, 205, 0.534)
+}
+.date-label
+{
+    font-weight: 600;
+    width: fit-content;
+}
+.checkOutDate,.checkInDate
+{
+    font-weight: 600;
+    color: grey;
+}
+.guest-detail
+{
+    display: flex;
+    flex-direction: column;
+    border: .5px solid rgba(213, 205, 205, 0.534);
+    gap: 5px;
+    padding: 10px;
+}
+.guest-detail > label
+{
+    font-weight: 600;
+    
+}
+#guestCOunt
+{
+    border: none;
+    color: grey;
+    font-size: 1.2rem;
+    outline: none;
+}
+#reserve
+{
+    background-color: #DE3151;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.breakup-container
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+.price-field
+{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+#discount
+{
+    color:#10B981;
+    
+}
+
+.review-container
+{
+    padding-block: 50px;
+}
+.review-header
+{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.review-header span
+{
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.rating-container
+{
+    display: flex;
+    width: 100%;
+    padding-block: 50px;
+    justify-content: space-between;
+    gap:20px ;
+}
+.rating-left
+{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+
+    gap: 20px;
+   
+    
+}
+.rating-item
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-weight: 600;
+    
+}
+.progress-track
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.progress
+{
+    width: 250px;
+    background-color: rgb(203, 199, 199);
+    height: 5px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.progress-bar
+{
+    background-color: #000000;
+    height: 100%;
+    width: 50%;
+    border-radius: 3px;
+    
+}
+.comment-container
+{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.user-card
+{
+    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.user
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user-details
+{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    
+}
+.user-date
+{
+    color: rgb(163, 159, 159);
+}
+.user-comment
+{
+    font-weight: 400;
+    font-size: 0.8rem;
+}

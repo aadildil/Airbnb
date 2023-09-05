@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday homes & apartment rentals </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <!-- Navbar will go here -->
+        <nav>
+            <div class="nav-l">
+                <a href="index.html"><img src="images/logo.png" alt="" class="logo"></a>
+            </div>
+
+            <div class="nav-m">
+                <a href="" class="tab">Places to stay</a>
+                <a href="" class="tab">Experiences</a>
+                <a href="" class="tab">Online Experiences</a>
+            </div>
+            <div class="nav-r">
+                <a href="">Become a Host</a>
+                <span class="material-symbols-outlined" style="color: rgb(249, 249, 249);">language </span>
+                <div class="user-menu">
+                    <div class="hamburger-menu">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <img src="images/proflePic.png" alt="Profile Picture" class="profile-pic">
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+    <main>
+        <!-- Search bar, listings, and map will go here -->
+
+        <div class="cover">
+            <div id="search-container">
+                <div id="location-field" class="field">
+                    <label for="location">Location</label>
+                    <input type="text" name="location" id="location" placeholder="Where are you going?" value="paris" required>
+                </div>
+                <div id="checkIn-field" class="field">
+                    <label for="checkIn">Check in</label>
+                    <input type="date" name="checkIn" id="inDate" placeholder="Add dates" required value="2023-09-15">
+                </div>
+                <div id="checkOut-field" class="field">
+                    <label for="checkOut">Check out</label>
+                    <input type="date" name="checkOut" id="outDate" placeholder="Add dates" value="2023-09-20" required>
+                </div>
+                <div id="guests-field">
+                    <label for="location">Guests</label>
+                    <input type="number" name="Guests" id="guests" placeholder="Add guests"value="1" required>
+                </div>
+                <div class="search-icon">
+                    <span class="material-symbols-outlined" style="color: white;">
+                        search
+                    </span>
+                </div>
+            </div>
+            <div class="hero-container">
+                <img src="images/Big Card.png" alt="">
+                <div class="hero-content">
+                    <span>Not sure where to go? Perfect.</span>
+                    <button>I'm flexible</button>
+                </div>
+            </div>
+        </div>
+        <div class="inspirations">
+            <h1>Inspiration for your next trip</h1>
+
+            <div class="inspiration-cards">
+                <!-- card1 -->
+                <div class="card">
+                    <div class="card-top">
+                        <img src="images/card1.png" alt="">
+                    </div>
+                    <div class="card-bottom">
+                        <h2 class="destination">Nashville</h2>
+                        <span class="distance">146 miles away</span>
+                    </div>
+                </div>
+                <!-- card2 -->
+                <div class="card">
+                    <div class="card-top">
+                        <img src="images/card2.png" alt="">
+                    </div>
+                    <div class="card-bottom" style="background-color:  #BC1A6E;">
+                        <h2 class="destination">South Haven</h2>
+                        <span class="distance">158 miles away</span>
+                    </div>
+                </div>
+                <!-- card3-->
+                <div class="card">
+                    <div class="card-top">
+                        <img src="images/card3.png" alt="">
+                    </div>
+                    <div class="card-bottom" style="background-color:  #DE3151;">
+                        <h2 class="destination">Stanton</h2>
+                        <span class="distance">85 miles away</span>
+                    </div>
+                </div>
+                <!-- card4 -->
+                <div class="card">
+                    <div class="card-top">
+                        <img src="images/card4.png" alt="">
+                    </div>
+                    <div class="card-bottom" style="background-color:  #D93B30;">
+                        <h2 class="destination">New Buffalo</h2>
+                        <span class="distance">146 miles away</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="discover">
+            <h1>Discover Airbnb Experiences</h1>
+            <div class="discover-images">
+
+                <div class="discover-container">
+                    <div class="discover-content">
+                        <span class="discover-text">Things to do <br>on your trip</span>
+                        <button class="discover-btn">Experiences</button>
+                    </div>
+                    <img src="images/desert.jpg" alt="" class="disc-image">
+                </div>
+
+                <div class="discover-container">
+                    <div class="discover-content">
+                        <span class="discover-text">Things to do <br>from home</span>
+                        <button class="discover-btn">Online Experiences</button>
+                    </div>
+                    <img src="images/handy.png" alt="" class="disc-image">
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="shop-cards">
+            <div class="shop-content">
+                <h1 class="shop-text">Shop Airbnb <br>gift cards</h1>
+                <button class="shop-btn">Learn more</button>
+            </div>
+            <div class="giftcard-images">
+                <img src="images/Gift Cards.png" alt="">
+            </div>
+        </div>
+
+        <div class="hosting-hero">
+            <img src="images/host.png" alt="" class="host-image">
+            
+                <span class="host-text">Questions <br>about <br>hosting?</span>
+                <button class="host-btn">Ask a Superhost</button>
+            
+        </div>
+
+        <div class="future">
+            <h1>Inspiration for future getaways</h1>
+        </div>
+
+    </main>
+    <footer>
+        <!-- Footer will go here -->
+    </footer>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/dd3bfbe8ab.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
